@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Card</title>
+</head>
+<body>
+    <div class="container">
+       <div class="front-card">
+          <div class="header">
+             <div class="image">
+                <img src="img/DSC_1128.JPG" alt="">
+             </div>
+          </div>
+          <div class="footer">
+             <div class="name">
+                <p id="employee-name">Abhishek Das</p>
+             </div>
+             <div class="designation">
+                <p id="employee-designation">Senior |  Ernst and Yound LLP</p>
+             </div>
+             <div class="socialmedia">
+                 <div id="facebook" class="sociallinks"><img src="img/facebook-icon.png" alt=""></div>
+                 <div id="twitter" class="sociallinks"><img src="img/twitter-icon.png" alt=""></div>
+                 <div id="instagram" class="sociallinks"><img src="img/instagram-icon.png" alt=""></div>
+                 <div id="youtube" class="sociallinks"><img src="img/youtube-icon.png" alt=""></div>
+            </div>
+            <div class="buttons">
+                 <div class="button">
+                    <span>Subscribe</span>
+                 </div>
+                 <div class="button">
+                    <span>Message</span>
+                 </div>
+            </div>
+            <div class="reaches">
+                <div class="reaches-component">
+                    <img src="img/heart.png" alt="" class="reaches-icon">
+                    <span id="like-count" class="reaches-count">0</span>
+                </div>
+                <div class="reaches-component">
+                    <img src="img/message.png" alt="" class="reaches-icon">
+                    <span id="comment-count" class="reaches-count">0</span>
+                </div>
+                <div class="reaches-component">
+                    <img src="img/reply.png" alt="" class="reaches-icon">
+                    <span id="reply-count" class="reaches-count">0</span>
+                </div>
+            </div>
+          </div>
+       </div>
+       <div class="back-card">
+          <div class="data">
+             <div class="label">
+                <span class="label-text">Full name</span>
+             </div>
+             <div class="value">
+               <input type="text" name="fullname" id="fullname" value="Abhishek Das" class="data-field" readonly>
+             </div>
+          </div>
+          <div class="data">
+            <div class="label">
+               <span class="label-text">Organization</span>
+            </div>
+            <div class="value">
+              <input type="text" name="organization" id="organization" value="Ernst and Yound LLP" class="data-field" readonly>
+            </div>
+         </div>
+         <div class="data">
+            <div class="label">
+               <span class="label-text">Email</span>
+            </div>
+            <div class="value">
+              <input type="text" name="email" id="email" value="abhishek.das11@gds.ey.com" class="data-field" readonly>
+            </div>
+         </div>
+         <div class="data">
+            <div class="label">
+               <span class="label-text">Date of birth</span>
+            </div>
+            <div class="value">
+              <input type="date" name="dob" id="dob" value="1995-11-23" class="data-field" readonly>
+            </div>
+         </div>
+         <div class="data">
+            <div class="label">
+               <span class="label-text">Phone</span>
+            </div>
+            <div class="value">
+              <input type="number" name="phone" id="phone" value="7219553758" class="data-field" readonly>
+            </div>
+         </div>
+       </div>
+    </div>
+</body>
+</html>
