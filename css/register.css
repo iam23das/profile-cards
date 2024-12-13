@@ -1,5 +1,108 @@
 *{
     padding: 0%;
     margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+.icon-items{
+    padding-right: 10px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74C0FC;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 550px;
+    height: 700px;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 2px 2px rgba(13, 3, 120, 0.25);
+}
+
+.icon{
+    display: flex;
+    justify-content: left;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="datetime"],
+input[type="number"] {
+    all: unset; /* Resets all inherited and default styles */
+    width: 100%; /* Ensures full width */
+    padding: 10px; /* Add some padding for usability */
+    border: 1px solid #ccc; /* Neutral border */
+    border-radius: 4px; /* Optional: Rounded corners */
+    font-family: 'Poppins', sans-serif; /* Use the chosen font */
+    font-size: 16px; /* Ensure readable text size */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+input:hover{
+    border: 3px solid;
+    border-color: #2e86de;
+}
+
+/* Add focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="number"]:focus {
+    border-color: #2e86de; /* Optional: Highlight color */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(116, 192, 252, 0.5); /* Add subtle glow */
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #aaa; /* Neutral placeholder color */
+    opacity: 1; /* Ensure visibility */
+}
+
+input:focus::placeholder {
+    opacity: 0; /* Make placeholder disappear on focus */
+}
+
+/* Optional: Container styling for alignment */
+.inputfields {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #74C0FC;
+    height: 450px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Add spacing between fields */
+}
+
+.submit{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e86de;
+    color: #ffffff;
+}
+
+.submit:hover{
+    background-color: #084f96;
+    cursor: pointer;
 }
